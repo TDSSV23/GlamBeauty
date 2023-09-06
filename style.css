@@ -15,5 +15,7 @@ body {
 .carrossel {
  width: 70%;
  margin-top: 50px;
-
+}
+.border-radius {
+    border-radius: 7%;
 }

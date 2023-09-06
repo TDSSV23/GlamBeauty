@@ -13,9 +13,9 @@ body {
     border-bottom: solid 2px black;
 }
 .carrossel {
- width: 70%;
+ width: 50%;
  margin-top: 50px;
 }
 .border-radius {
-    border-radius: 7%;
+    border-radius: 50px;
 }

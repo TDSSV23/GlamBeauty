@@ -63,35 +63,40 @@
         </div>
       </nav>
       <!-- CARROSSEL -->
-      <div class="container-fluid carrossel">
-         <div id="carouselExampleIndicators" class="carousel slide ">
-        <div class="carousel-indicators ">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="container mt-5">
+        <div id="imagemCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores do Carrossel -->
+            <ol class="carousel-indicators">
+                <ol data-bs-target="#imagemCarousel" data-bs-slide-to="0" class="active"></ol>
+                <ol data-bs-target="#imagemCarousel" data-bs-slide-to="1"></ol>
+                <ol data-bs-target="#imagemCarousel" data-bs-slide-to="2"></ol>
+            </ol>
+      
+            <!-- Slides do Carrossel -->
+            <div class="carousel-inner alturacarrossel">
+                <div class="carousel-item active">
+                    <img src="img/fundoslider1.avif" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fundoslider2.avif" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fundoslider3.avif" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+      
+            <!-- Controles do Carrossel -->
+            <a class="carousel-control-prev" href="#imagemCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#imagemCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </a>
         </div>
-        <div class="carousel-inner border-radius">
-          <div class="carousel-item active">
-            <img src="img/fundoslider1.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/fundoslider2.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/fundoslider3.avif" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-
+      
 
  
     <!-- Titúlo dos lançamentos -->
@@ -99,7 +104,7 @@
     
     <!-- PRODUTOS DOS LANÇAMENTOS -->
     
-    <div class="justify-content-center">
+    <div class="justify-content-center m-5">
       <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100">
@@ -245,12 +250,6 @@
   </button>
 </div>
 </div>
-
-
-
-
-
-
 
 
 

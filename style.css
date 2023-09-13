@@ -1,7 +1,12 @@
 body {
     margin: 0%;
-    background-color: white;
+    background-image: url(img/fundodosite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
+/* CLASSES NAV */
 .rosa {
     background-color: pink;
 }
@@ -10,12 +15,34 @@ body {
 }
 .bordarosa {
     border-top: solid 8px #EE57B2;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px rgb(194, 194, 194);
 }
+/* CLASSES CARROSSEL */
 .carrossel {
- width: 50%;
+ width: 600px;
  margin-top: 50px;
 }
+
 .border-radius {
-    border-radius: 50px;
+    border-radius: 40px;
 }
+/* Titúlo do LANÇAMENTOS */
+
+.titulolançamentos {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Impact, fantasy;
+    color: #EE57B2;
+}
+
+/* CLASSE NÃO USADA PARA LANÇAMENTOS 
+.posiçaolançamentos { 
+    width: 55%; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: white;
+    border-radius: 30px;
+} */
+
+

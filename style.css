@@ -108,3 +108,14 @@ body {
     background-color: var(--bs-card-cap-bg);
     border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
+
+.bg-pink {
+    background-color: #EE57B2;
+}
+.titulocarrinho {
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, fantasy;
+    color: #EE57B2;
+    margin-top: 15px;
+}

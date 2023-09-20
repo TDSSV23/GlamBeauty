@@ -193,3 +193,44 @@ body::-webkit-scrollbar {
     font-weight: bold;
     font-size: large;
 }
+
+
+/* FOOTER */
+ 
+
+.fot {
+    background-color: rgba(255, 210, 237, 1);
+}
+
+
+.linha-fot{
+
+color: black;
+
+}
+
+
+
+
+
+.cim{
+    align-items: flex-start;
+    display: flow-root;
+}
+
+.sec{
+    align-items: center;
+    text-align: center;
+}
+
+
+.left{
+    margin-left: 6%;
+    font-size:larger;
+}
+
+.right{
+    margin-right: 6%;
+    font-size: larger;
+}
+

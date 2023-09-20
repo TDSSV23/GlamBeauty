@@ -157,4 +157,23 @@ body::-webkit-scrollbar {
 
 .rosasite {
     color: #EE57B2;
+    margin: 0 0 -12px;
+}
+
+
+
+
+
+
+
+/* CONTEUDO CARRINHO */
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top: 0;
+    right: 100%;
+    left: auto;
+    margin-top: 0;
+    margin-right: var(--bs-dropdown-spacer);
+    width: 1000px;
+   
 }

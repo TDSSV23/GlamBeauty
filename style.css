@@ -176,4 +176,14 @@ body::-webkit-scrollbar {
     margin-right: var(--bs-dropdown-spacer);
     width: 1000px;
    
+} 
+/* BORDA ROSA */
+.pinkborder {
+    border: solid 2px #EE57B2;
+} 
+
+/* fundo sobre skin care */
+.fundosobreskincare {
+    background-color: rgba(240, 161, 222, 0.3);
+    border-radius: 20px;
 }

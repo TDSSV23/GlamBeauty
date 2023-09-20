@@ -141,16 +141,20 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    background: rgb(215, 113, 198);        /* color of the tracking area */
+    background: rgb(213, 205, 212);        /* color of the tracking area */
   }
   
   body::-webkit-scrollbar-thumb {
     background-color: rgb(190, 139, 170);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(167, 63, 117);  /* creates padding around scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    
   }
   
 /* OPACIDADE */
 .opacidade:hover {
     opacity: 0.8;
+}
+
+.rosasite {
+    color: #EE57B2;
 }

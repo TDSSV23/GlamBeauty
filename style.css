@@ -154,3 +154,7 @@ body::-webkit-scrollbar {
 .opacidade:hover {
     opacity: 0.8;
 }
+
+.rosasite {
+    color: #EE57B2;
+}

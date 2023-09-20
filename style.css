@@ -238,3 +238,28 @@ color: black;
     margin: 50px;
     font-size: small;
 }
+.bgcover-1 {
+    background-size: cover;
+    background-image: url(img/fundosobre.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.textosobre {
+    font-size: xx-large;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.bgcover-2 {
+    background-size: cover;
+    background-image: url(img/fundonossosprodutos.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.titulolançamentos2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Impact, fantasy;
+    color: #000000;
+}

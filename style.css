@@ -188,3 +188,8 @@ body::-webkit-scrollbar {
     border-radius: 20px;
 }
 
+.fonte {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: large;
+}

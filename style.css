@@ -214,10 +214,6 @@ color: black;
 
 }
 
-
-
-
-
 .cim{
     align-items: flex-start;
     display: flow-root;
@@ -243,12 +239,14 @@ color: black;
     margin: 50px;
     font-size: small;
 }
+
 .bgcover-1 {
     background-size: cover;
     background-image: url(img/fundosobre.jpg);
     width: 80vw;
     height: 100vh;
 }
+
 .textosobre {
     font-size: xx-large;
     color: white;
@@ -267,12 +265,14 @@ color: black;
     background-color: rgba(118, 28, 98, 0.3);
     border-radius: 0px 60px 0px 60px;
 }
+
 .fonte2 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: large;
     color: white;
 }
+
 .fundosprodutos {
     background-color: rgba(118, 28, 98, 0.3);
     border-radius: 60px 0px 60px 0px;
@@ -281,7 +281,6 @@ color: black;
 .propagandapequena {
     width: 500px;
 }
-
 
 .card1 {
     --bs-card-spacer-y: 1rem;
@@ -322,5 +321,3 @@ color: black;
 .altura {
     height: 280px;
 }
-
-

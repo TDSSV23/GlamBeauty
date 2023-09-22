@@ -162,7 +162,12 @@ body::-webkit-scrollbar {
 
 
 
+.bi-arrow-up-circle-fill {
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
 
+}
 
 
 

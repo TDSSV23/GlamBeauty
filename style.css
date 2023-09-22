@@ -325,3 +325,6 @@ color: black;
 .gallery-item:hover {
     transform: scale(1.01);
 }
+.altura2 {
+    height: 400px;
+}

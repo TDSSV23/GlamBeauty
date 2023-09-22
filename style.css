@@ -322,3 +322,9 @@ color: black;
     height: 280px;
 }
 
+.gallery-item:hover {
+    transform: scale(1.01);
+}
+.altura2 {
+    height: 400px;
+}

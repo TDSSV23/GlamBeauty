@@ -348,3 +348,13 @@ color: black;
 .fot1 {
     background-color: rgb(255, 180, 225);
 }
+
+.fundodicas {
+    background-color: #EE57B2;
+}
+.textodicas {
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: white;
+    margin-top: 15px;
+}

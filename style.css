@@ -328,3 +328,20 @@ color: black;
 .altura2 {
     height: 400px;
 }
+.pr {
+    padding-right: 10%;
+}
+.fundodermaquiz {
+    background-color: rgba(238, 87, 178, 0.3);
+}
+.tituloderma {
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, fantasy;
+    color: #EE57B2;
+    margin-top: 15px;
+}
+.textosobrederma {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}

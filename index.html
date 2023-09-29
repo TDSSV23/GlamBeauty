@@ -315,7 +315,7 @@
     </div>
   </div>
   <!-- PROPAGANDA -->
-  <div class="container-fluid mt-5 flex-column text-center d-flex">
+  <div class="container-fluid mt-5 flex-column text-center d-flex" style="width: 800px;">
     <img class="opacidade bordapropagandapequena" src="img/propaganda1.png" alt="propaganda1">
   </div>
 
@@ -773,19 +773,19 @@ Experimente a revolução da beleza personalizada com nosso DermaQuiz e descubra
       <p class="card-text">
         <div class="row"> 
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="cravos-espinhas">
-          <label class="form-check-label" for="flexCheckDefault">
+          <input class="form-check-input" type="checkbox" value="" onchange="verificarCheckbox()" id="cravosespinhas">
+          <label class="form-check-label" for="cravosespinhas">
             Cravos / Espinhas
           </label>
         </div>
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="flacidez">
-          <label class="form-check-label" for="flexCheckDefault">
+          <input class="form-check-input" type="checkbox" value="" id="flacidez" onchange="verificarCheckbox1()">
+          <label class="form-check-label" for="flacidez">
             Flacidez
           </label>
         </div>
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="faltadeviço">
+          <input class="form-check-input" type="checkbox" value="" id="faltadeviço" onchange="verificarCheckbox2()">
           <label class="form-check-label" for="flexCheckDefault">
             Falta de Viço
           </label>
@@ -793,19 +793,19 @@ Experimente a revolução da beleza personalizada com nosso DermaQuiz e descubra
       </div>
       <div class="row">
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="manchas">
+          <input class="form-check-input" type="checkbox" value="" id="manchas" onchange="verificarCheckbox3()">
           <label class="form-check-label" for="flexCheckDefault">
             Manchas / Melasma
           </label>
         </div>
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="texturairregular">
+          <input class="form-check-input" type="checkbox" value="" id="texturairregular" onchange="verificarCheckbox4()">
           <label class="form-check-label" for="flexCheckDefault">
             Textura Irregular
           </label>
         </div>
         <div class="form-check col">
-          <input class="form-check-input" type="checkbox" value="" id="rugas">
+          <input class="form-check-input" type="checkbox" value="" id="rugas" onchange="verificarCheckbox5()">
           <label class="form-check-label" for="flexCheckDefault">
             Rugas / Linhas Finas
           </label>
@@ -813,7 +813,7 @@ Experimente a revolução da beleza personalizada com nosso DermaQuiz e descubra
       </div>
       <div class="row">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="poros">
+          <input class="form-check-input" type="checkbox" value="" id="poros" onchange="verificarCheckbox6()">
           <label class="form-check-label" for="flexCheckDefault">
            Poros Dilatados
           </label>

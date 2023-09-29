@@ -34,48 +34,48 @@ function verificarCheckbox() {
 }
 
 function verificarCheckbox1() {
-  let checkbox1 = document.getElementById("flacidez");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("flacidez");
+  if (checkbox.checked) {
   console.log('Flacidez')
       
   }
 }
 
 function verificarCheckbox2() {
-  let checkbox1 = document.getElementById("faltadeviço");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("faltadeviço");
+  if (checkbox.checked) {
   console.log('Falta de Viço')
       
   }
 }
 
 function verificarCheckbox3() {
-  let checkbox1 = document.getElementById("manchas");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("manchas");
+  if (checkbox.checked) {
   console.log('Mancha')
       
   }
 }
 
 function verificarCheckbox4() {
-  let checkbox1 = document.getElementById("texturairregular");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("texturairregular");
+  if (checkbox.checked) {
   console.log('Textura Irregular')
       
   }
 }
 
 function verificarCheckbox5() {
-  let checkbox1 = document.getElementById("rugas");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("rugas");
+  if (checkbox.checked) {
   console.log('Rugas')
       
   }
 }
 
 function verificarCheckbox6() {
-  let checkbox1 = document.getElementById("poros");
-  if (checkbox1.checked) {
+  let checkbox = document.getElementById("poros");
+  if (checkbox.checked) {
   console.log('Poros')
       
   }

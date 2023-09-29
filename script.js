@@ -29,6 +29,7 @@ function verificarCheckbox() {
   
   if (checkbox.checked) {
    console.log('Cravos e Espinhas')
+   
       
   }
 }

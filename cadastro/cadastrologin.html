@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css" > <!-- Certifique-se de que este arquivo CSS existe -->
+    <title>GlamBeauty</title>
+
+     <!-- Link Icone do Site -->
+    <link rel="icon" href="../images/logoedguia.png">
+
+</head>
+<body>
+
+
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="../video/videoporche.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    
+    <div class="container">
+        <!-- Cadastre-se -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h2 class="form__title">Cadastre-se</h2>
+                <input type="text" placeholder="Usuário" class="input" />
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Senha" class="input" />
+                <button class="btn">Cadastre-se</button>
+            </form>
+        </div>
+    
+        <!-- Entrar -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h2 class="form__title">Entrar</h2>
+                <input type="email" placeholder="Email" class="input" />
+                <input type="password" placeholder="Senha" class="input" />
+                <a href="#" class="link">Esqueceu sua senha?</a>
+                <button class="btn">Entrar</button>
+            </form>
+        </div>
+    
+        <!-- Sobreposição -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">Entrar</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+
+
+
+    
+    <script src="login.js"></script> <!-- Certifique-se de que este arquivo JavaScript existe -->
+</body>
+
+
+
+
+
+</html>

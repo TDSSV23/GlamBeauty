@@ -73,7 +73,7 @@ body {
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #9b035e;
     --bs-btn-active-border-color: #9b035e;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-active-shadow: #9b035e;
     --bs-btn-disabled-color: #fff;
     /* --bs-btn-disabled-bg: #198754; */
     /* --bs-btn-disabled-border-color: #198754; */
@@ -89,7 +89,7 @@ body {
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #be0072;
     --bs-btn-active-border-color: #be0072;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-active-shadow: #be0072;
     --bs-btn-disabled-color: #be0072;
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #be0072;
@@ -116,6 +116,9 @@ body {
     --bs-btn-disabled-border-color: #6c757d;
 }
 
+.margem {
+    margin: 0 0 -12px;
+}
 
 .card-footer1 {
    
@@ -157,7 +160,7 @@ body::-webkit-scrollbar {
 
 .rosasite {
     color: #EE57B2;
-    margin: 0 0 -12px;
+    --bs-btn-hover-color: #be0072;
 }
 
 

@@ -484,3 +484,10 @@ color: black;
     margin-left: 10px;
 }
 
+.carousel-inner{
+    height: 67px;
+  }
+  .carousel-caption{
+    color: #fff;
+    top: 50%;
+  }

@@ -7,61 +7,58 @@
     <title>GlamBeauty</title>
 
      <!-- Link Icone do Site -->
-    <link rel="icon" href="../images/logoedguia.png">
+    <link rel="icon" href="../img/logobranca.png">
 
 </head>
 <body>
-
-
-    <div class="video-background">
-        <video autoplay loop muted>
-            <source src="../video/videoporche.mp4" type="video/mp4">
-        </video>
+   
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>or use your account</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forgot your password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Explorer!</h1>
+            <p>Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
     </div>
-
     
-    <div class="container">
-        <!-- Cadastre-se -->
-        <div class="container__form container--signup">
-            <form action="#" class="form" id="form1">
-                <h2 class="form__title">Cadastre-se</h2>
-                <input type="text" placeholder="Usuário" class="input" />
-                <input type="email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Senha" class="input" />
-                <button class="btn">Cadastre-se</button>
-            </form>
-        </div>
-    
-        <!-- Entrar -->
-        <div class="container__form container--signin">
-            <form action="#" class="form" id="form2">
-                <h2 class="form__title">Entrar</h2>
-                <input type="email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Senha" class="input" />
-                <a href="#" class="link">Esqueceu sua senha?</a>
-                <button class="btn">Entrar</button>
-            </form>
-        </div>
-    
-        <!-- Sobreposição -->
-        <div class="container__overlay">
-            <div class="overlay">
-                <div class="overlay__panel overlay--left">
-                    <button class="btn" id="signIn">Entrar</button>
-                </div>
-                <div class="overlay__panel overlay--right">
-                    <button class="btn" id="signUp">Cadastre-se</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-
-    
-
-
-
     
     <script src="login.js"></script> <!-- Certifique-se de que este arquivo JavaScript existe -->
 </body>
